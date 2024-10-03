@@ -24,7 +24,7 @@
     };
     if (url.includes("article")) {
       document.onkeydown = function (e) {
-        if (e.keyCode == 67 && e.ctrlKey && e.altKey) {
+        if (e.key == 'c' && e.ctrlKey && e.altKey) {
           clickBotton_blog();
           alert("复制成功！");
         }
