@@ -10,6 +10,6 @@
 			"js": ["js/luogu.js","js/hydro.js","js/copy.js","js/exlg.js","js/lsa.js"]
     		}
 	],
-	"browser_action": { "default_icon": "icon.jpg", "default_popup": "popup.html" },
+	"action": { "default_icon": "icon.jpg", "default_popup": "popup.html" },
 	"icons": { "48": "icon.jpg" }
 }
