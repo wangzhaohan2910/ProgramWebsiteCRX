@@ -110,6 +110,7 @@
        "    opacity: 0.98;",
        "}"
    ].join("\n");
+var domain = window.location.host;
 if(domain=='hydro.ac'||domain=='oiclass.com'||domain=='kedaoi.cn'||domain=='vijos.org')
 {
     if (typeof GM_addStyle != "undefined") {
