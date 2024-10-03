@@ -1,15 +1,15 @@
 ﻿{
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "编程网站优化",
 	"version": "1.0.0",
 	"description": "编程网站优化",
 	"content_scripts":
 	[
-        {
+        	{
 			"matches": ["*://*/*"],
 			"js": ["js/luogu.js","js/hydro.js","js/copy.js","js/exlg.js","js/lsa.js"]
-    	}
-    ],
+    		}
+	],
 	"browser_action": { "default_icon": "icon.jpg", "default_popup": "popup.html" },
 	"icons": { "48": "icon.jpg" }
 }
