@@ -131,26 +131,6 @@
 .nav {
         animation: up 1s;
     }
-    .large-9{
-        animation: le 1s;
-    }
-    .section{
-        animation: le 1s;
-    }
-#searchForm {
-    border-radius: 20px !important;
-    background:rgba(255, 255, 255, .8);
-}
-
-    .section__table-container {
-        border-radius: 20px !important;
-    background:rgba(255, 255, 255, .8);
-
-    }
-
-    .dropdown .menu {
-    background: #e5e5e5ba;
-}
 .nav .nav__item:hover {
     background: #e5e5e599;
     color: #fa4b4b;
